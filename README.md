@@ -6,12 +6,12 @@
 
 ```verilog
 module Half_Adder(Sum,Carry,X,Y);
-	//declaration
-	input X,Y;
-	output Sum,Carry;
-	//Instantiation
-	xor G1(Sum,X,Y);
-	and G2(Carry,X,Y);
+    //declaration
+    input X,Y;
+    output Sum,Carry;
+    //Instantiation
+    xor G1(Sum,X,Y);
+    and G2(Carry,X,Y);
 endmodule
 ```
 
@@ -20,20 +20,20 @@ endmodule
 ```verilog
 `timescale 1ns/1ns
 module Half_Adder_Test();
-	reg X,Y;
-	wire Sum,Carry;
-	Half_Adder HF (Sum,Carry,X,Y);
-	initial begin
-		$dumpfile("output.vcd");
-		$dumpvars(0,Half_Adder_Test);
-		$monitor("%d %d -> %d %d",X,Y,Carry,Sum);
-		#0 X = 0; Y = 0;
-		#2 X = 0; Y = 0;
-		#2 X = 0; Y = 1;
-		#2 X = 1; Y = 0;
-		#2 X = 1; Y = 1;
-		#5 $finish;
-	end
+    reg X,Y;
+    wire Sum,Carry;
+    Half_Adder HF (Sum,Carry,X,Y);
+    initial begin
+        $dumpfile("output.vcd");
+        $dumpvars(0,Half_Adder_Test);
+        $monitor("%d %d -> %d %d",X,Y,Carry,Sum);
+        #0 X = 0; Y = 0;
+        #2 X = 0; Y = 0;
+        #2 X = 0; Y = 1;
+        #2 X = 1; Y = 0;
+        #2 X = 1; Y = 1;
+        #5 $finish;
+    end
 endmodule
 ```
 
@@ -58,8 +58,4 @@ Half_Adder  Half_Adder_test.v  Half_Adder.v  output.vcd
 $ gtkwave output.vcd &
 ```
 
-![Screenshot from 2022-01-27 08-17-04.png](/home/sayak/Desktop/2723a8d00f6d4e2772114752b8f12045bf85f295.png)
-
-
-
-
+![Screenshot from 2022-01-27 08-17-04.png]("https://raw.githubusercontent.com/sayak2k1maruti/VLSI_Lab/main/screenshots/Screenshot%20from%202022-01-27%2008-17-04.png?token=GHSAT0AAAAAABP5S6VTSCNVLMIAW3WQD3AGYPSZVNA")
