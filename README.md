@@ -57,8 +57,8 @@ $ ls
 Half_Adder  Half_Adder_test.v  Half_Adder.v  output.vcd
 $ gtkwave output.vcd &
 ```
+![Screenshot from 2022-01-27 08-17-04](https://user-images.githubusercontent.com/64575577/151406498-5c71e81b-bafc-4c10-9d4e-fcb8a16352f4.png)
 
-![Screenshot from 2022-01-27 08-17-04.png](/home/sayak/Desktop/2723a8d00f6d4e2772114752b8f12045bf85f295.png)
 
 
 
