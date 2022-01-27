@@ -57,5 +57,13 @@ $ ls
 Half_Adder  Half_Adder_test.v  Half_Adder.v  output.vcd
 $ gtkwave output.vcd &
 ```
+![Screenshot from 2022-01-27 08-17-04](https://user-images.githubusercontent.com/64575577/151406498-5c71e81b-bafc-4c10-9d4e-fcb8a16352f4.png)
 
+<<<<<<< HEAD
 ![Screenshot from 2022-01-27 08-17-04.png]("https://raw.githubusercontent.com/sayak2k1maruti/VLSI_Lab/main/screenshots/Screenshot%20from%202022-01-27%2008-17-04.png?token=GHSAT0AAAAAABP5S6VTSCNVLMIAW3WQD3AGYPSZVNA")
+=======
+
+
+
+
+>>>>>>> 397aea7944ff4192e97c2ec4677149767d860225
