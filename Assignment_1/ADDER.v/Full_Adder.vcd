@@ -1,0 +1,86 @@
+$date
+	Wed Mar 30 02:27:14 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Full_Adder_test $end
+$scope module Comb $end
+$var wire 1 ! C $end
+$var wire 1 " S $end
+$var wire 1 # X $end
+$var wire 1 $ Y $end
+$var wire 1 % Z $end
+$var wire 1 & S2 $end
+$var wire 1 ' S1 $end
+$var wire 1 ( C2 $end
+$var wire 1 ) C1 $end
+$scope module HA1 $end
+$var wire 1 ) C $end
+$var wire 1 ' S $end
+$var wire 1 # X $end
+$var wire 1 $ Y $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 ( C $end
+$var wire 1 & S $end
+$var wire 1 ' X $end
+$var wire 1 % Y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1"
+1&
+1%
+#10
+1'
+0%
+1$
+#15
+1!
+0"
+0&
+1(
+1%
+#20
+0!
+1"
+1&
+0(
+0%
+0$
+1#
+#25
+1!
+0"
+0&
+1(
+1%
+#30
+0(
+0'
+1)
+0%
+1$
+#35
+1"
+1&
+1%
+#40

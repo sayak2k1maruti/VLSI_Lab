@@ -1,0 +1,25 @@
+$date
+	Wed Mar 30 01:51:23 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module NOT_test $end
+$scope module Comb $end
+$var wire 1 ! X $end
+$var wire 1 " Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1"
+0!
+$end
+#5
+0"
+1!
+#10
