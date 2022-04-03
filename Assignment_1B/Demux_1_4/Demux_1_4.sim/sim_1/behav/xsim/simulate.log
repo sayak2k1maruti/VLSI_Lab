@@ -1,0 +1,11 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+0     0 0 -> 0 0 0 0
+0     0 1 -> 0 0 0 0
+0     1 0 -> 0 0 0 0
+0     1 1 -> 0 0 0 0
+1     0 0 -> 0 0 0 1
+1     0 1 -> 0 0 1 0
+1     1 0 -> 0 1 0 0
+1     1 1 -> 1 0 0 0
+$finish called at time : 40 ns : File "D:/Desktop/Demux_1_4/Demux_1_4.srcs/sim_1/new/testbench.v" Line 17

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Grey_to_Binary/Grey_to_Binary.srcs/sources_1/new/G_to_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module G_to_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Grey_to_Binary/Grey_to_Binary.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
