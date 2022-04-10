@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Mux_8_1/project_1/project_1.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Mux_8_1/project_1/project_1.srcs/sources_1/new/FA_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+WARNING: [VRFC 10-2845] overwriting previous definition of module half_adder [D:/Desktop/Mux_8_1/project_1/project_1.srcs/sources_1/new/half_adder.v:3]
+INFO: [VRFC 10-311] analyzing module FA
+WARNING: [VRFC 10-2845] overwriting previous definition of module FA [D:/Desktop/Mux_8_1/project_1/project_1.srcs/sources_1/new/FA.v:3]
+INFO: [VRFC 10-311] analyzing module FA_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Mux_8_1/project_1/project_1.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Mux_8_1/project_1/project_1.srcs/sim_1/new/fa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa_tb

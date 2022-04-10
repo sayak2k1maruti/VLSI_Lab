@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Apr  6 11:09:31 2022
+# Process ID: 8844
+# Current directory: D:/Desktop/Parity_Checker
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2268 D:\Desktop\Parity_Checker\Parity_Checker.xpr
+# Log file: D:/Desktop/Parity_Checker/vivado.log
+# Journal file: D:/Desktop/Parity_Checker\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/Parity_Checker/Parity_Checker.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source testbench.tcl
+save_wave_config {D:/Desktop/testbench_behav.wcfg}
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+close_project
+open_project D:/Desktop/Binary_to_Grey/Binary_to_Grey.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source testbench.tcl
+close_sim
+close_project
+open_project D:/Desktop/Grey_to_Binary/Grey_to_Binary.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+synth_design -rtl -name rtl_1
+close_sim
+close_project
+open_project D:/Desktop/Comparator/Comparator.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+synth_design -rtl -name rtl_1
+close_sim
+close_project
+open_project D:/Desktop/Demux_1_4/Demux_1_4.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+synth_design -rtl -name rtl_1
+close_sim
+close_project
+open_project D:/Desktop/Mux_8_1/Assignment_1B.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+synth_design -rtl -name rtl_1
+close_sim
+close_project
+open_project D:/Desktop/Parity_Checker/Parity_Checker.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+close_sim
+close_project
+open_project D:/Desktop/Mux_8_1/Assignment_1B.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
